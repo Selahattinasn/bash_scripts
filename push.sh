@@ -8,4 +8,4 @@ echo Hello, soll ich die Code pushen?
 read ADRESS2
 git add .
 git commit -m "updated"
-git push https://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@${ADRESS:8}
+git push https://<TOKE>@${ADRESS:8}
