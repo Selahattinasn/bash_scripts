@@ -12,3 +12,14 @@
 ► We can use variable expansion:
 var='content'
 echo "${var}"
+
+
+
+Best practice:
+► Avoid using special characters or reserved keywords
+► Try to use Bash variables, unless you need to use an environment
+variable
+► You can simplify complex commands, by using a variable to turn
+them into multiple, simpler commands
+► Use lowercase characters, and separate words by an underscore:
+► my_var
