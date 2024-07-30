@@ -1,0 +1,14 @@
+► Bash variables are used to store and manipulate data:
+► They are valid within a shell session
+► Variables can be defined and used directly in the shell session
+► Data is then stored temporarily within the current shell session
+► Syntax: variable_name=value for declaration and assignment
+► No spaces around the = operator!
+► Variables are case-sensitive
+(myVar and myvar are different variables)
+► Important:
+► There are no data types, all variables in Bash are strings
+► To access a variable:
+► We can use variable expansion:
+var='content'
+echo "${var}"
